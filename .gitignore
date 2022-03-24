@@ -1,0 +1,3 @@
+# Project exclude paths
+/spring-elasticsearch/target/
+/spring-mongo-restapi/target/
