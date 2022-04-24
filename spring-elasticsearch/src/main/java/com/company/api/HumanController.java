@@ -24,7 +24,7 @@ public class HumanController {
     @PostConstruct
     public void init(){
         Human human = new Human();
-        human.setName("Parvin");
+        human.setName("Pervin");
         human.setSurname("Valizade");
         human.setId("K0002");
         human.setAddress("test");
