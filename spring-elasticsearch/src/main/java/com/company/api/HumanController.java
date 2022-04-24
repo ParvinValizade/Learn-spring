@@ -32,7 +32,6 @@ public class HumanController {
         humanRepository.save(human);
     }
 
-
     @GetMapping("/{search}")
     public ResponseEntity<List<Human>> getHuman(@PathVariable String search){
         List<Human> humans = humanRepository.findByNameLikeOrSurnameLike(search,search);
