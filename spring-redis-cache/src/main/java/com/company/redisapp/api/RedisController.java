@@ -12,6 +12,7 @@ public class RedisController {
 
     private int count = 0;
 
+
     @Autowired
     private RedisCacheService redisCacheService;
 
