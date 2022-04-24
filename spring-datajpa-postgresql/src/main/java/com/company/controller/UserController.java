@@ -19,7 +19,6 @@ public class UserController {
     public ResponseEntity<UserDto> save(@RequestBody UserDto userDto){
         return ResponseEntity.ok(userService.save(userDto));
     }
-
     @GetMapping
     public ResponseEntity<List<UserDto>> getAllUsers(){
         return ResponseEntity.ok(userService.getAll());
