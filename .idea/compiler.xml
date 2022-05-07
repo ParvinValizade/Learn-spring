@@ -14,6 +14,7 @@
         <module name="spring-mongo-restapi" />
         <module name="spring-boot-pagination" />
         <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-versioning" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-gridfs-fileupload" />
         <module name="spring-redis-cache" />
@@ -33,6 +34,7 @@
       <module name="spring-boot-pagination" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
+      <module name="spring-boot-versioning" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-restapi" options="-parameters" />

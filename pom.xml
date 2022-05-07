@@ -22,6 +22,7 @@
         <module>spring-elasticsearch</module>
         <module>spring-boot-events</module>
         <module>spring-boot-gridfs-fileupload</module>
+        <module>spring-boot-versioning</module>
     </modules>
 
     <properties>
